@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsumidorCEP</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <h1 id="titulo-principal">App Consumidor de CEP</h1>
+    <h3>Informe um CEP</h3>
+    <form action="#">
+         <input type="number" name="cep" id="btn-cep" placeholder="ex:567893">
+         <input type="submit" value="Enviar" id="btn-enviar">
+    </form>
+    <!-- Apresentação de Resultados-->
+   <div class="hiden">
+       <div id="span-container" >
+         <span id="bairo">Bairo</span>
+         <span id="cidade">Cidade</span>
+         <span id="estado">Estado</span>
+         <span id="cep">Cep</span>
+       </div>
+       <div id="itens-container">
+         <p id="bairo"></p>
+         <p id="cidade"></p>
+         <p id="estado"></p>
+         <p id="cep"></p>
+       </div>
+    </div>  
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

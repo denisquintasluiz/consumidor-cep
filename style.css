@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(168, 168, 168);
+    color: cornsilk;
+}
+
+/*titulo principal*/
+
+body #titulo-principal {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 20px;
+    border: 4px solid cornsilk;
+    border-top: none;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+}
+
+/*Dando estilo no formulário*/
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 2px auto;
+}
+
+ h3 {
+    margin-top:70px;
+    text-align: center;
+    padding: 30px 30px;
+    
+}
+
+form #btn-cep {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 4px;
+}
+
+form #btn-enviar {
+    height: 40px;
+    width: 90px;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: cornsilk;
+    transition: .5s;
+    color: black;
+}
+
+form #btn-enviar:hover {
+    background-color: transparent;
+    color: cornsilk;
+    border: 2px solid cornsilk;
+    cursor: pointer;
+}
+
+
+/*Class Hide*/
+
+.hiden {
+    display: none;
+}
+
+#span-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#span-container #cidade {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#span-container #estado {
+    margin-right: 60px;
+}
+
+/*Itens-container*/
+#itens-container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: midnightblue;
+}
+
+#itens-container #cidade {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#itens-container #estado {
+    margin-right: 60px;
+}
+
+
+
+
+
+
